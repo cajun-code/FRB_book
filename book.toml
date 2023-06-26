@@ -1,0 +1,6 @@
+[book]
+authors = ["Allan Davis"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Going Mobile with Flutter and Rust"
