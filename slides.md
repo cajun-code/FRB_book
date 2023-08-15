@@ -29,9 +29,19 @@ By Allan Davis
 
 ---
 
+# Agenda
+
+* What is Flutter
+* What is the rust bridge
+* Demo
+* Q & A
+
+---
+
 # What is Flutter 
 
 * Cross platform application UI framework
+* Uses Dart for everything
 * https://flutter.dev
 * https://pub.dev
 
@@ -43,11 +53,17 @@ By Allan Davis
 * Remove the need for platform-specific language (like C++/Kotlin/Swift/etc)
 
 ---
-
+![bg left:40% 80%](https://rustacean.net/assets/rustacean-flat-noshadow.svg)
 # Simple Hello Demo
 
 
 ---
-
+![bg left:40% 80%](https://rustacean.net/assets/rustacean-flat-gesture.svg)
 # Questions and Answers
 
+---
+![bg left:40% 80%](https://rustacean.net/assets/rustacean-flat-happy.svg)
+# Thanks
+
+## Slides and code
+## https://github.com/cajun-code/FRB_book
