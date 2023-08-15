@@ -1,0 +1,22 @@
+ 1122  flutter --version
+ 1123  flutter help
+ 1124  flutter help create
+ 1125  flutter create --org com.shadeauxmedia battery_checker
+ 1126  cd battery_checker/
+ 1127  code .
+ 1128  cargo new natvie --lib
+ 1129  ls
+ 1130  cd natvie
+ 1131  cargo add flutter_rust_bridge
+ 1132  cargo add battery
+ 1133  cd ..
+ 1134  task --init
+ 1135  flutter pub add --dev ffigen:'^8.0.2' 
+ 1136  flutter pub add ffi
+ 1139  flutter pub add flutter_rust_bridge
+ 1141  flutter pub add -d build_runner
+ 1142  flutter pub add -d freezed
+ 1143  flutter pub add freezed_annotation 
+ 1149  mkdir cmake
+ 1150  curl https://raw.githubusercontent.com/Desdaemon/flutter_rust_bridge_template/main/windows/rust.cmake --output cmake/rust.cmake
+ 1153  cargo install cargo-xcode

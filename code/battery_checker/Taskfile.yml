@@ -1,0 +1,20 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  GREETING: Hello, World!
+
+tasks:
+
+  generate:
+    dir: ./natvie  
+    cmds:
+      - flutter_rust_bridge_codegen -r src/api.rs -d ../lib/bridge_generated.dart  -c ../ios/Runner/bridge_generated.h --dart-decl-output ../lib/bridge_definitions.dart
+      #- flutter_rust_bridge_codegen -r native/src/api.rs -d lib/bridge_generated.dart -c ios/Runner/bridge_generated.h -e macos/Runner/
+
+
+  default:
+    cmds:
+      - echo "{{.GREETING}}"
+    silent: true

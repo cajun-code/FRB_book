@@ -1,9 +1,0 @@
-[tasks.generate]
-script_runner = "@duckscript"
-script='''
-flutter_rust_bridge_codegen --rust-input native/src/api/mod.rs --dart-output lib/bridge_generated.dart --dart-decl-output lib/bridge_definitions.dart
-'''
-
-[tasks.gen]
-command = "flutter_rust_bridge_codegen"
-args = ["--rust-input", "native/src/api.rs", "--dart-output", "lib/bridge_generated.dart", "--dart-decl-output", "lib/bridge_definitions.dart"]

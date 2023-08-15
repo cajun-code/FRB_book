@@ -4,30 +4,50 @@ _class: lead
 paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
+marp: true
 ---
 
-![bg left:40% 80%](https://marp.app/assets/marp.svg)
+![bg left:40% 80%](https://rustacean.net/assets/cuddlyferris.svg)
 
-# **Marp**
+# **Going Mobile with Flutter and Rust**
 
-Markdown Presentation Ecosystem
+Flutter Rust Bridge
 
-https://marp.app/
+By Allan Davis
+
+---
+![bg left:30%](images/Allan_Davis_Head_Shot.JPG)
+# Introduction
+
+## Allan Davis
+* Lead Engineer: Haulink
+* Rust Game Developer: Shadeaux Media
+* 20 Years of experience
+* Gitlab: cajun_code
+* Github: cajun-code
+* Linked In: cajuncode
 
 ---
 
-# How to write slides
+# What is Flutter 
 
-Split pages by horizontal ruler (`---`). It's very simple! :satisfied:
-
-```markdown
-# Slide 1
-
-foobar
+* Cross platform application UI framework
+* https://flutter.dev
+* https://pub.dev
 
 ---
 
-# Slide 2
+# Flutter Rust Bridge
 
-foobar
-```
+* Easy way to transmit data between our native code and Flutter
+* Remove the need for platform-specific language (like C++/Kotlin/Swift/etc)
+
+---
+
+# Simple Hello Demo
+
+
+---
+
+# Questions and Answers
+
